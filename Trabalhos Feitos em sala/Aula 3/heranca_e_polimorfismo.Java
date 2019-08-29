@@ -14,11 +14,11 @@ public class Heranca_e_polimorfismo {
         Passageiro instPassageiro1 = new Passageiro(22,2,35,55,"Carlos","Britanico","nenhuma");
         instPassageiro1.printParametros();
         
-       /* 
-        Aviao instAviao = new Aviao();
-        instAviao.modelo("Boeing");
-        instAviao.qtdPassageiros(200);
-        */
+       
+        Companhia aee = new Companhia();
+        aee.tipoPneu();
+        aee.mudecor("amarelo");
+        
         
     }
     
